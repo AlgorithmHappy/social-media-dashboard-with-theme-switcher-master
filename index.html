@@ -12,36 +12,59 @@
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+
+    .main-margin {
+      margin-left: 120px;
+      margin-right: 120px;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      grid-gap: 50px 50px;
+    }
+
+    .grid-item {
+      background-color: hsl(228, 28%, 20%);
+      color: hsl(228, 34%, 66%);
+    }
   </style>
 </head>
-<body>
+<body class="main-margin">
 
   Social Media Dashboard
   Total Followers: 23,004
 
   Dark Mode
 
-  
+  <div class="grid-container">
+    <div class="grid-item">
+      @nathanf
+      1987
+      Followers
+      12 Today
+    </div>
 
-  @nathanf
-  1987
-  Followers
-  12 Today
+    <div class="grid-item">
+      @nathanf
+      1044
+      Followers
+      99 Today
+    </div>
 
-  @nathanf
-  1044
-  Followers
-  99 Today
-
-  @realnathanf
-  11k
-  Followers
-  1099 Today
-
-  Nathan F.
-  8239
-  Subscribers
-  144 Today
+    <div class="grid-item">
+      @realnathanf
+      11k
+      Followers
+      1099 Today
+    </div>
+    <div class="grid-item">
+      Nathan F.
+      8239
+      Subscribers
+      144 Today
+    </div>
+  </div>
 
 
 
